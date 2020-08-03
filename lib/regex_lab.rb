@@ -22,5 +22,5 @@ end
 def valid_phone_number?(phone)
  # phone.scan(/(\d+)-(\d+)-(\d+)/)  
  	
-  phone.scan? ^[2-9]\d{2}-\d{3}-\d{4}$
+  phone.scan(^[2-9]\d{2}-\d{3}-\d{4}$)
 end
