@@ -12,6 +12,11 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   text.match(/^[A-Z].*[a-zA-Z][.]$/) ? true : false
+  # ^ for start of string
+  # [A-Z] first letter of string is capital 
+  # .* any amount of any characters
+  # [a-zA-Z] any amount of a-z and A-Z characters
+  #
 end
 
 def valid_phone_number?(phone)
